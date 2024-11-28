@@ -6,9 +6,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/salaga-py2021/ChurnGuard">
-    <img src="images/churnguard.jpg" alt="Logo" width="80" height="80">
-  </a>
+  
+   ![ChurnGuard](https://github.com/user-attachments/assets/c1073347-27f7-4a10-8b27-7d4b6e6f8407)
+
 
   <h3 align="center">ChurnGuard</h3>
 
