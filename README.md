@@ -6,8 +6,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/harshak913/ChurnGuard">
-    <img src="Web App/churnguard.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/salaga-py2021/ChurnGuard">
+    <img src="images/churnguard.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ChurnGuard</h3>
@@ -15,10 +15,10 @@
   <p align="center">
     Streamlined to help your business lock in customer loyalty
     <br />
-    <a href="https://github.com/harshak913/ChurnGuard"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/salaga-py2021/ChurnGuard"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-   <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a> -->
+    <a href="https://churnguard-li84cj7r3jbm5cxh9u4djz.streamlit.app/">View Demo</a>
   </p>
 </div>
 
@@ -43,7 +43,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Team Contact</a></li>
+    <li><a href="#team-contact">Team Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -53,13 +53,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div style="text-align:center">
-<a href="https://github.com/harshak913/ChurnGuard">
-  <img src="Web App/demo.png" alt="demo" width=80% height=90%>
+<a href="https://github.com/salaga-py2021/ChurnGuard">
+  <img src="images/demo.png" alt="demo" width=80% height=90%>
 </a>
 </div>
 
 
 ChurnGuard is designed to help banks lock in customer loyalty. The platform offers insights into a bank’s customer retention & the factors behind their churning. Then, given a customer being considered by bank employee & some basic information about the customer, we can predict the probability of churn and classify whether the customer is going to churn in the near future.
+
+ChurnGuard was a project made by college students as part of a FinHackathon at UTDallas. To learn more about the winners, please <a href="#team-contact">look at our team</a>. To learn more about the hackathon you can visit <a href="https://jindal.utdallas.edu/news/finhack-2024-challenges-and-encourages-ut-dallas-students/">UTDallas Jindal News Center</a>
 
 Product Offerings:
 * Historical customer analysis 
@@ -82,35 +84,35 @@ ChurnGuard predicts data using popular ensemble models (logistic regression, ran
   <tbody>
     <tr>
       <td>Random Forest</td>
-      <td>82.23%</td>
-      <td>81.87%</td>
-      <td>82.23%</td>
-      <td>83.94%</td>
-      <td>80.51%</td>
+      <td>83.14%</td>
+      <td>59.23%</td>
+      <td>0.7541</td>
+      <td>88.08%</td>
+      <td>62.74%</td>
     </tr>
     <tr>
       <td>ADA Boost</td>
-      <td>73.20%</td>
-      <td>72.94%</td>
-      <td>73.19%</td>
-      <td>73.90%</td>
-      <td>72.48%</td>
+      <td>73.14%</td>
+      <td>45.12%</td>
+      <td>0.6686</td>
+      <td>77.16%</td>
+      <td>56.55%</td>
     </tr>
     <tr>
       <td>XG Boost</td>
-      <td>83.46%</td>
-      <td>82.88%</td>
-      <td>83.46%</td>
-      <td>86.64%</td>
-      <td>80.28%</td>
+      <td>81.44%</td>
+      <td>56.19%</td>
+      <td>0.7368</td>
+      <td>86.41%</td>
+      <td>60.97%</td>
     </tr>
     <tr>
       <td>Logistic Regression</td>
-      <td>55.53%</td>
-      <td>60.23%</td>
-      <td>55.58%</td>
-      <td>43.57%</td>
-      <td>67.57%</td>
+      <td>59.22%</td>
+      <td>37.52%</td>
+      <td>0.6055</td>
+      <td>58.36%</td>
+      <td>62.74%</td>
     </tr>
   </tbody>
 </table>
@@ -162,7 +164,7 @@ Please install the libraries listed in the requirements.txt file
    ```sh
    conda install <library name>
    ```
-4. Enter your API in `gpt.py`
+4. Enter your API as an environment variable called `OPENAI_API_KEY`
    ```python
    openai_api_key = 'ENTER YOUR API'
    ```
@@ -191,8 +193,8 @@ To make a prediction, use the website to enter the values for the customer in th
 
 - [ ] Improve UI for OpenAI responses
 - [ ] Add chat bot feature to allow managers to ask questions about model interpretation
-- [ ] Finetune underlying models for predictions using a wider hyperparameter space
-- [ ] Host website on live webserver 
+- [X] Finetune underlying models for predictions using a wider hyperparameter space
+- [X] Host website on live webserver 
 - [ ] Add data about bank to LLM to create better reccommendations to managers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -209,14 +211,14 @@ Distributed under the MIT License.
 <!-- CONTACT -->
 ## Team Contact
 
-- Harsha Gurram - [LinkedIn](https://www.linkedin.com/in/harshakolachina/)
+- Harsha Gurram - [LinkedIn](https://www.linkedin.com/in/harsha-gurram/)
 - Harsha Kolachina - [LinkedIn](https://www.linkedin.com/in/harshakolachina/)
 - Mihir Padsumbiya  - [LinkedIn](https://www.linkedin.com/in/mihir-padsumbiya/)
 - Viswa Kotra - [LinkedIn](https://www.linkedin.com/in/viswa-kotra/)
 
 
 
-Project Link: [https://github.com/harshak913/ChurnGuard](https://github.com/harshak913/ChurnGuard)
+Project Link: [https://github.com/salaga-py2021/ChurnGuard](https://github.com/salaga-py2021/ChurnGuard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
